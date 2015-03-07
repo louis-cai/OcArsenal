@@ -10,10 +10,7 @@
 
 @implementation NSDictionary (Arsenal)
 + (BOOL)isValid:(id)obj {
-    if (obj && [obj isKindOfClass:[NSDictionary class]]) {
-        return YES;
-    }
-    return NO;
+    return obj && [obj isKindOfClass:[NSDictionary class]];
 }
 
 + (BOOL)isNotValid:(id)obj {
@@ -21,16 +18,10 @@
 }
 
 + (BOOL)isEmpty:(id)obj {
-    if ([NSDictionary isValid:obj]) {
-        NSDictionary *varObj = obj;
-        if ([varObj allValues]>0) {
-            return NO;
-        }
-    }
-    return YES;
+    return ![NSDictionary isNotEmpty:obj];
 }
 
 + (BOOL)isNotEmpty:(id)obj {
-    return ![NSDictionary isEmpty:obj];
+    return [NSDictionary isValid:obj] && [(NSDictionary *)obj count] > 0;
 }
 @end

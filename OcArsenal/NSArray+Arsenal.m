@@ -10,10 +10,7 @@
 
 @implementation NSArray (Arsenal)
 + (BOOL)isValid:(id)obj {
-    if (obj && [obj isKindOfClass:[NSArray class]]) {
-        return YES;
-    }
-    return NO;
+    return obj && [obj isKindOfClass:[NSArray class]];
 }
 
 + (BOOL)isNotValid:(id)obj {
@@ -21,16 +18,11 @@
 }
 
 + (BOOL)isEmpty:(id)obj {
-    if ([NSArray isValid:obj]) {
-        if ([(NSArray *)obj count]>0) {
-            return NO;
-        }
-    }
-    return YES;
+    return ![NSArray isNotEmpty:obj];
 }
 
 + (BOOL)isNotEmpty:(id)obj {
-    return ![NSArray isEmpty:obj];
+    return [NSArray isValid:obj] && [(NSArray *)obj count] > 0;
 }
 
 - (NSString *)join:(NSString *)delimiter {

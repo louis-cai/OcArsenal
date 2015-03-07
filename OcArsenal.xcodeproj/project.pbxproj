@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		E62B1B951AA8249000673777 /* OcArsenal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E62B1B891AA8249000673777 /* OcArsenal.framework */; };
-		E62B1B9C1AA8249000673777 /* OcArsenalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E62B1B9B1AA8249000673777 /* OcArsenalTests.m */; };
-		E62B1BA71AA8330A00673777 /* MD5Encode.h in Headers */ = {isa = PBXBuildFile; fileRef = E62B1BA51AA8330A00673777 /* MD5Encode.h */; };
-		E62B1BA81AA8330A00673777 /* MD5Encode.m in Sources */ = {isa = PBXBuildFile; fileRef = E62B1BA61AA8330A00673777 /* MD5Encode.m */; };
 		E62B1BAB1AA834B900673777 /* NSArray+Arsenal.h in Headers */ = {isa = PBXBuildFile; fileRef = E62B1BA91AA834B900673777 /* NSArray+Arsenal.h */; };
 		E62B1BAC1AA834B900673777 /* NSArray+Arsenal.m in Sources */ = {isa = PBXBuildFile; fileRef = E62B1BAA1AA834B900673777 /* NSArray+Arsenal.m */; };
 		E62B1BAF1AA8352700673777 /* NSDictionary+Arsenal.h in Headers */ = {isa = PBXBuildFile; fileRef = E62B1BAD1AA8352700673777 /* NSDictionary+Arsenal.h */; };
 		E62B1BB01AA8352700673777 /* NSDictionary+Arsenal.m in Sources */ = {isa = PBXBuildFile; fileRef = E62B1BAE1AA8352700673777 /* NSDictionary+Arsenal.m */; };
+		E6E01C461AAADCB800320210 /* NSData+Crypto.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E01C421AAADCB800320210 /* NSData+Crypto.h */; };
+		E6E01C471AAADCB800320210 /* NSData+Crypto.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E01C431AAADCB800320210 /* NSData+Crypto.m */; };
+		E6E01C481AAADCB800320210 /* NSString+Crypto.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E01C441AAADCB800320210 /* NSString+Crypto.h */; };
+		E6E01C491AAADCB800320210 /* NSString+Crypto.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E01C451AAADCB800320210 /* NSString+Crypto.m */; };
+		E6E01C4D1AAADE4000320210 /* NSDictionary_ArsenalTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E01C4C1AAADE4000320210 /* NSDictionary_ArsenalTest.m */; };
+		E6E01C4F1AAB00D200320210 /* NSArray+ArsenalTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E01C4E1AAB00D200320210 /* NSArray+ArsenalTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,13 +35,16 @@
 		E62B1B8D1AA8249000673777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E62B1B941AA8249000673777 /* OcArsenalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OcArsenalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E62B1B9A1AA8249000673777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E62B1B9B1AA8249000673777 /* OcArsenalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OcArsenalTests.m; sourceTree = "<group>"; };
-		E62B1BA51AA8330A00673777 /* MD5Encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5Encode.h; sourceTree = "<group>"; };
-		E62B1BA61AA8330A00673777 /* MD5Encode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5Encode.m; sourceTree = "<group>"; };
 		E62B1BA91AA834B900673777 /* NSArray+Arsenal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Arsenal.h"; sourceTree = "<group>"; };
 		E62B1BAA1AA834B900673777 /* NSArray+Arsenal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Arsenal.m"; sourceTree = "<group>"; };
 		E62B1BAD1AA8352700673777 /* NSDictionary+Arsenal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Arsenal.h"; sourceTree = "<group>"; };
 		E62B1BAE1AA8352700673777 /* NSDictionary+Arsenal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Arsenal.m"; sourceTree = "<group>"; };
+		E6E01C421AAADCB800320210 /* NSData+Crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Crypto.h"; sourceTree = "<group>"; };
+		E6E01C431AAADCB800320210 /* NSData+Crypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Crypto.m"; sourceTree = "<group>"; };
+		E6E01C441AAADCB800320210 /* NSString+Crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Crypto.h"; sourceTree = "<group>"; };
+		E6E01C451AAADCB800320210 /* NSString+Crypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Crypto.m"; sourceTree = "<group>"; };
+		E6E01C4C1AAADE4000320210 /* NSDictionary_ArsenalTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionary_ArsenalTest.m; sourceTree = "<group>"; };
+		E6E01C4E1AAB00D200320210 /* NSArray+ArsenalTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ArsenalTest.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +87,10 @@
 		E62B1B8B1AA8249000673777 /* OcArsenal */ = {
 			isa = PBXGroup;
 			children = (
-				E62B1BA51AA8330A00673777 /* MD5Encode.h */,
-				E62B1BA61AA8330A00673777 /* MD5Encode.m */,
+				E6E01C421AAADCB800320210 /* NSData+Crypto.h */,
+				E6E01C431AAADCB800320210 /* NSData+Crypto.m */,
+				E6E01C441AAADCB800320210 /* NSString+Crypto.h */,
+				E6E01C451AAADCB800320210 /* NSString+Crypto.m */,
 				E62B1BA91AA834B900673777 /* NSArray+Arsenal.h */,
 				E62B1BAA1AA834B900673777 /* NSArray+Arsenal.m */,
 				E62B1BAD1AA8352700673777 /* NSDictionary+Arsenal.h */,
@@ -103,7 +111,8 @@
 		E62B1B981AA8249000673777 /* OcArsenalTests */ = {
 			isa = PBXGroup;
 			children = (
-				E62B1B9B1AA8249000673777 /* OcArsenalTests.m */,
+				E6E01C4E1AAB00D200320210 /* NSArray+ArsenalTest.m */,
+				E6E01C4C1AAADE4000320210 /* NSDictionary_ArsenalTest.m */,
 				E62B1B991AA8249000673777 /* Supporting Files */,
 			);
 			path = OcArsenalTests;
@@ -125,8 +134,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E62B1BAF1AA8352700673777 /* NSDictionary+Arsenal.h in Headers */,
+				E6E01C461AAADCB800320210 /* NSData+Crypto.h in Headers */,
 				E62B1BAB1AA834B900673777 /* NSArray+Arsenal.h in Headers */,
-				E62B1BA71AA8330A00673777 /* MD5Encode.h in Headers */,
+				E6E01C481AAADCB800320210 /* NSString+Crypto.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,8 +236,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6E01C491AAADCB800320210 /* NSString+Crypto.m in Sources */,
 				E62B1BB01AA8352700673777 /* NSDictionary+Arsenal.m in Sources */,
-				E62B1BA81AA8330A00673777 /* MD5Encode.m in Sources */,
+				E6E01C471AAADCB800320210 /* NSData+Crypto.m in Sources */,
 				E62B1BAC1AA834B900673777 /* NSArray+Arsenal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,7 +247,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E62B1B9C1AA8249000673777 /* OcArsenalTests.m in Sources */,
+				E6E01C4D1AAADE4000320210 /* NSDictionary_ArsenalTest.m in Sources */,
+				E6E01C4F1AAB00D200320210 /* NSArray+ArsenalTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
