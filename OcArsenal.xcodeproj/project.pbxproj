@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		E62B1B951AA8249000673777 /* OcArsenal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E62B1B891AA8249000673777 /* OcArsenal.framework */; };
-		E62B1BAB1AA834B900673777 /* NSArray+Arsenal.h in Headers */ = {isa = PBXBuildFile; fileRef = E62B1BA91AA834B900673777 /* NSArray+Arsenal.h */; };
+		E62B1BAB1AA834B900673777 /* NSArray+Arsenal.h in Headers */ = {isa = PBXBuildFile; fileRef = E62B1BA91AA834B900673777 /* NSArray+Arsenal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E62B1BAC1AA834B900673777 /* NSArray+Arsenal.m in Sources */ = {isa = PBXBuildFile; fileRef = E62B1BAA1AA834B900673777 /* NSArray+Arsenal.m */; };
-		E62B1BAF1AA8352700673777 /* NSDictionary+Arsenal.h in Headers */ = {isa = PBXBuildFile; fileRef = E62B1BAD1AA8352700673777 /* NSDictionary+Arsenal.h */; };
+		E62B1BAF1AA8352700673777 /* NSDictionary+Arsenal.h in Headers */ = {isa = PBXBuildFile; fileRef = E62B1BAD1AA8352700673777 /* NSDictionary+Arsenal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E62B1BB01AA8352700673777 /* NSDictionary+Arsenal.m in Sources */ = {isa = PBXBuildFile; fileRef = E62B1BAE1AA8352700673777 /* NSDictionary+Arsenal.m */; };
 		E655C5E71AAD4D54008BA2BB /* OcArsenal.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E655C5E61AAD4D54008BA2BB /* OcArsenal.podspec */; };
-		E6E01C461AAADCB800320210 /* NSData+Crypto.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E01C421AAADCB800320210 /* NSData+Crypto.h */; };
+		E6E01C461AAADCB800320210 /* NSData+Crypto.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E01C421AAADCB800320210 /* NSData+Crypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6E01C471AAADCB800320210 /* NSData+Crypto.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E01C431AAADCB800320210 /* NSData+Crypto.m */; };
-		E6E01C481AAADCB800320210 /* NSString+Crypto.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E01C441AAADCB800320210 /* NSString+Crypto.h */; };
+		E6E01C481AAADCB800320210 /* NSString+Crypto.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E01C441AAADCB800320210 /* NSString+Crypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6E01C491AAADCB800320210 /* NSString+Crypto.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E01C451AAADCB800320210 /* NSString+Crypto.m */; };
 		E6E01C4D1AAADE4000320210 /* NSDictionary_ArsenalTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E01C4C1AAADE4000320210 /* NSDictionary_ArsenalTest.m */; };
 		E6E01C4F1AAB00D200320210 /* NSArray+ArsenalTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E01C4E1AAB00D200320210 /* NSArray+ArsenalTest.m */; };
