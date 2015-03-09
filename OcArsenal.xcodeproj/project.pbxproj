@@ -12,7 +12,7 @@
 		E62B1BAC1AA834B900673777 /* NSArray+Arsenal.m in Sources */ = {isa = PBXBuildFile; fileRef = E62B1BAA1AA834B900673777 /* NSArray+Arsenal.m */; };
 		E62B1BAF1AA8352700673777 /* NSDictionary+Arsenal.h in Headers */ = {isa = PBXBuildFile; fileRef = E62B1BAD1AA8352700673777 /* NSDictionary+Arsenal.h */; };
 		E62B1BB01AA8352700673777 /* NSDictionary+Arsenal.m in Sources */ = {isa = PBXBuildFile; fileRef = E62B1BAE1AA8352700673777 /* NSDictionary+Arsenal.m */; };
-		E655C5B11AAD4812008BA2BB /* OcArsenal.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E655C5B01AAD4812008BA2BB /* OcArsenal.podspec */; };
+		E655C5E71AAD4D54008BA2BB /* OcArsenal.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E655C5E61AAD4D54008BA2BB /* OcArsenal.podspec */; };
 		E6E01C461AAADCB800320210 /* NSData+Crypto.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E01C421AAADCB800320210 /* NSData+Crypto.h */; };
 		E6E01C471AAADCB800320210 /* NSData+Crypto.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E01C431AAADCB800320210 /* NSData+Crypto.m */; };
 		E6E01C481AAADCB800320210 /* NSString+Crypto.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E01C441AAADCB800320210 /* NSString+Crypto.h */; };
@@ -40,7 +40,7 @@
 		E62B1BAA1AA834B900673777 /* NSArray+Arsenal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Arsenal.m"; sourceTree = "<group>"; };
 		E62B1BAD1AA8352700673777 /* NSDictionary+Arsenal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Arsenal.h"; sourceTree = "<group>"; };
 		E62B1BAE1AA8352700673777 /* NSDictionary+Arsenal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Arsenal.m"; sourceTree = "<group>"; };
-		E655C5B01AAD4812008BA2BB /* OcArsenal.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = OcArsenal.podspec; path = OcArsenal/OcArsenal.podspec; sourceTree = "<group>"; };
+		E655C5E61AAD4D54008BA2BB /* OcArsenal.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OcArsenal.podspec; sourceTree = "<group>"; };
 		E6E01C421AAADCB800320210 /* NSData+Crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Crypto.h"; sourceTree = "<group>"; };
 		E6E01C431AAADCB800320210 /* NSData+Crypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Crypto.m"; sourceTree = "<group>"; };
 		E6E01C441AAADCB800320210 /* NSString+Crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Crypto.h"; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 		E655C5B21AAD481D008BA2BB /* Podspec */ = {
 			isa = PBXGroup;
 			children = (
-				E655C5B01AAD4812008BA2BB /* OcArsenal.podspec */,
+				E655C5E61AAD4D54008BA2BB /* OcArsenal.podspec */,
 			);
 			name = Podspec;
 			sourceTree = "<group>";
@@ -230,7 +230,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E655C5B11AAD4812008BA2BB /* OcArsenal.podspec in Resources */,
+				E655C5E71AAD4D54008BA2BB /* OcArsenal.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
