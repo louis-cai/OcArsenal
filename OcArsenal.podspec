@@ -19,7 +19,7 @@ s.source           = { :git => "https://github.com/louis-cai/OcArsenal.git", :ta
 s.platform     = :ios
 s.requires_arc = true
 
-s.source_files = 'OcArsenal/*.{d,h,m}','OcArsenal/*.{d,h,m}'
+s.source_files = 'OcArsenal/*.{d,h,m}'
 
 s.frameworks = 'Foundation'
 end
