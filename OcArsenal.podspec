@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "OcArsenal"
-s.version          = "0.1.0"
+s.version          = "0.2.0"
 s.summary          = "A category lib with Objective-c."
 s.authors		   = "louis cai"
 s.homepage		   = "https://github.com/louis-cai/OcArsenal"
@@ -18,8 +18,13 @@ s.source           = { :git => "https://github.com/louis-cai/OcArsenal.git", :ta
 
 s.platform     = :ios
 s.requires_arc = true
-
-s.source_files = 'OcArsenal/*.{d,h,m}'
-
 s.frameworks = 'Foundation'
+
+s.default_subspec = 'NSKit'
+s.subspec 'NSKit' do |core|
+core.source_files = 'OcArsenal/NS/*.{h,m}'
+end
+
+s.subspec 'UIKit' do |ui|
+ui.source_files = 'OcArsenal/UI/*.{h,m}'
 end
